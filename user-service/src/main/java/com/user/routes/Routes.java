@@ -6,5 +6,6 @@ public class Routes {
     public static final String REGISTER = USER + "/register";
     public static final String BALANCE = USERS + "/balance";
     public static final String ACCOUNT_BALANCE_BY_ID = "/account/{userId}";
+    public static final String ALL_USERS_BALANCE = USERS + "/account/balance";
 
 }

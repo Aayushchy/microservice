@@ -7,7 +7,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-@FeignClient(name = "ACCOUNT-SERVICE")
+//@FeignClient(name = "ACCOUNT-SERVICE")
+@FeignClient(name = "API-GATEWAY")
 public interface AccountClient {
 
     @RequestMapping(value = Routes.ACCOUNT_BALANCE_BY_ID, method = RequestMethod.GET)

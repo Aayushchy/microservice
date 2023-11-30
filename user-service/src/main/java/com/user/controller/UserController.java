@@ -32,4 +32,8 @@ public class UserController {
     public List<User> getUsersBalance() {
         return userService.getUsersBalance();
     }
+    @RequestMapping(value = Routes.ALL_USERS_BALANCE, method = RequestMethod.GET)
+    public List<User> getAllUsersBalance() {
+        return userService.getAllUsersBalance();
+    }
 }

@@ -17,5 +17,9 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8083/eureka
 
+api:
+  gateway:
+    url: http://localhost:8082
+
 #  instance:
 #    prefer-ip-address: true

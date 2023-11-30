@@ -11,4 +11,6 @@ public interface UserService {
 
     List<User> getUsersBalance();
 
+    List<User> getAllUsersBalance();
+
 }
